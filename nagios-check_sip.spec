@@ -3,12 +3,12 @@
 
 Summary:	A Nagios plugin to check SIP servers and devices
 Name:		nagios-check_sip
-Version:	1.01
-Release:	%mkrel 3
+Version:	1.1
+Release:	%mkrel 1
 License:	GPL
 Group:		Networking/Other
 URL:		http://www.bashton.com/content/nagiosplugins
-Source0:	http://www.bashton.com/downloads/%{name}-%{version}.tar.bz2
+Source0:	http://www.bashton.com/downloads/%{name}-%{version}.tar.gz
 Source1:	check_sip.cfg
 Requires:	nagios
 BuildRoot:	%{_tmppath}/%{name}-buildroot
