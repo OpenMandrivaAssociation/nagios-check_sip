@@ -56,3 +56,55 @@ rm -rf %{buildroot}
 %doc README
 %config(noreplace) %{_sysconfdir}/nagios/plugins.d/check_sip.cfg
 %{_datadir}/nagios/plugins/check_sip
+
+
+%changelog
+* Sat Dec 11 2010 Oden Eriksson <oeriksson@mandriva.com> 1.2-6mdv2011.0
++ Revision: 620464
+- the mass rebuild of 2010.0 packages
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 1.2-5mdv2010.0
++ Revision: 440227
+- rebuild
+
+* Mon Dec 15 2008 Guillaume Rousse <guillomovitch@mandriva.org> 1.2-4mdv2009.1
++ Revision: 314653
+- now a noarch package
+- use a herein document for configuration
+- reply on filetrigger for reloading nagios
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 1.2-3mdv2009.0
++ Revision: 253532
+- rebuild
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - 1.2
+
+* Tue Feb 19 2008 Oden Eriksson <oeriksson@mandriva.com> 1.1-1mdv2008.1
++ Revision: 173081
+- 1.1
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Tue Apr 17 2007 Oden Eriksson <oeriksson@mandriva.com> 1.01-3mdv2008.0
++ Revision: 13796
+- use the new /etc/nagios/plugins.d scandir
+
+
+* Wed Nov 15 2006 Oden Eriksson <oeriksson@mandriva.com> 1.01-2mdv2007.0
++ Revision: 84577
+- Import nagios-check_sip
+
+* Thu Aug 10 2006 Oden Eriksson <oeriksson@mandriva.com> 1.01-2mdk
+- disable debug packages
+
+* Thu Apr 06 2006 Oden Eriksson <oeriksson@mandriva.com> 1.01-1mdk
+- 1.01
+
+* Sun Jul 31 2005 Oden Eriksson <oeriksson@mandriva.com> 1.0-1mdk
+- initial Mandriva package
+
