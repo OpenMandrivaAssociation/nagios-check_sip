@@ -7,7 +7,7 @@ Version:	1.2
 Release:	7
 License:	GPL
 Group:		Networking/Other
-URL:		http://www.bashton.com/content/nagiosplugins
+URL:		https://www.bashton.com/content/nagiosplugins
 Source0:	http://www.bashton.com/downloads/%{name}-%{version}.tar.gz
 Requires:	nagios
 BuildArch:  noarch
